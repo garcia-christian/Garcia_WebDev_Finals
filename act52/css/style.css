@@ -42,7 +42,7 @@ body{
     font-size: 17px;
 }
 .inp:focus{
-    
+    border-bottom: #44d62c 1px solid;
     outline: none;
    
    }
