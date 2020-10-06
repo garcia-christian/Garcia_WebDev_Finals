@@ -114,7 +114,7 @@ function validateForm(){
     return false;
   }
 
-  alert('Sucess')
+  alert('Success')
   
 }
 
