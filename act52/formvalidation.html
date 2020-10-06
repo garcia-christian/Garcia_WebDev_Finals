@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon"
+        href="https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Razer_snake_logo.svg/1200px-Razer_snake_logo.svg.png">
+    </head>
+    <body>
+        
+        
+       <div class="left" style="background-image: url(images/left.jpg);">
+        
+
+       </div>
+        <div class="right">
+            <div class="header">
+                <img class="logo"
+                src="https://d4kkpd69xt9l7.cloudfront.net/sys-master/images/h6c/he1/8858452525086/wordmark.svg"
+                style="width:20%; max-width:200px;">
+                <h1>Sign Up</h1>
+        <p>Hi welcome to my website, new users are required to <br>
+            fill up this form to create your account.</p>
+            </div>
+            <form id="form" onsubmit="return validateForm()">
+                <h3>Fill up the form here:</h3>
+                <table >
+                    <tr>
+                        <td align="right">
+                            Last Name:
+                        </td>
+                        <td>
+                            <input class="inp" id="lnf" type ="text"name ="Lname" placeholder="Ex. Dela Cruz" >
+                            <br> <span class="error" id="lname_error">Last name cannot be empty</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            First Name:
+                        </td>
+                        <td>
+                            <input class="inp" id="fnf" type ="text" name="Fname" placeholder="Ex. Juan Pedro" >
+                            <br> <span class="error" id="fname_error">First name cannot be empty</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                           Email:
+                        </td>
+                        <td>
+                            <input required onkeydown="validateEmail()" class="inp eml" id="emf" type ="Email" name ="Email" placeholder="Ex. JPdelacruz@gmail.com" >
+                            <br> <span id="er_em" class="error"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                         Password:
+                        </td>
+                        <td>
+                            <input required onkeydown="validatePassword()" class="inp" id="pwf" type ="Password" name ="Pword" placeholder="Type Password" minlength="3">
+                            <br> <span id="pwder" class="error">Error</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            Gender:
+                        </td>  
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td id="radio">
+                            Male <input id="male" class="rad" type="radio" name="gender" >
+                            Female <input id="female" class="rad" type="radio" name="gender" >
+                        
+                        </td>
+                        
+                    </tr>
+                    
+                 </table>
+                        <div id="gner" class="error">Please Select Gender</div>
+                    <div class="terms"> <input type="checkbox" id="chkb" name="agree">I accept<a class="link" href=""> terms and conditions.</a></div>
+                    <span id="chke" class="error">Read and accept terms and conditions</span>
+                    <div>
+                        
+                         <table class="sub">
+                             <tr>
+                                 <td>
+                                   <button type="submit">Submit</button>
+                                 </td>
+                                 <td>     </td>
+                                 <td>     </td>
+                                 <td>     </td>
+                                 <td>     </td>
+                                 <td>     </td>
+                                 <td>     </td>
+                                 <td>     </td>
+                                 <td>     </td>
+                                 <td>     </td>
+                                 <td>
+                                    <button name="reset" type="reset">Reset</button>
+                                 </td>
+                             </tr>
+                         </table>
+                         
+                    
+                     </div>
+            </form>
+        </div>
+    </body>
+    <script src="js/script.js"></script>
+</html>
