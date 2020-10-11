@@ -1,0 +1,46 @@
+nav{
+top: 25px;
+height: 40px;
+width:59.9rem;
+left: 57rem;
+
+
+}
+
+
+.nav-item{
+    margin-left: 3rem;
+  
+    
+}
+ul{
+    margin-right: 1rem;
+   
+}
+.header{
+    background-color: #1a1a1d;;
+    height: 90px;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    position: absolute;
+    top: 2.5%;
+    opacity: 89%;
+}
+.headtitle{
+    position: absolute;
+    left: 19%;
+    top: 3.5%;
+    font-size: 30px;
+}
+.navbar{
+    background-color:#c3073f;
+    color: #1a1a1d;
+}
+.nav-link{
+    color: #1a1a1d;
+    font-size: 20px;
+}
+.frame{
+    height: 60rem;
+}

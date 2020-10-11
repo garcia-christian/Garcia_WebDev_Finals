@@ -1,0 +1,14 @@
+.header{
+    height: 2px;
+}
+.name{
+    color: white;
+    
+}
+.title{
+    margin-left: 20rem;
+    font-size: 4rem;
+}
+.row{
+    margin-top: 3rem;
+}

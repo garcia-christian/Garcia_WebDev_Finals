@@ -1,0 +1,33 @@
+
+
+h3{
+    font-size: 30px;
+    color: azure;
+}
+.col-sm{
+    font-size: 30px;
+    color: azure;
+}
+.row{
+    margin-top: 5rem;
+   
+}
+h1{
+    margin-left: 20rem;
+    color: azure;
+    
+    
+}
+.container{
+    position: relative;
+    right: 10%;
+    top: 10%;
+}
+
+p{
+    font-size: 15px;
+}
+.rle{
+    font-size: 60px;
+    margin-top: 30px;
+}
