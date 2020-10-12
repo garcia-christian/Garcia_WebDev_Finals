@@ -1,0 +1,123 @@
+a{
+  
+}
+
+h5{
+  padding-bottom: 8px;
+}
+
+.card-title{
+    font-size: 17px;
+}
+.post-number{
+  position: absolute;
+  left: 450px;
+  bottom: 7ch;
+    color: rgb(114, 114, 250);  
+
+}
+
+.card{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card-text{
+  margin-top: 5px;
+}
+
+.icon{
+  width: 6%;
+  border-radius: 100%;
+  margin: 4px 15px 5px 5px;
+}
+
+.icon2{
+  width: 3.5%;
+  border-radius: 100%;
+  margin: 0px 8px 2px 0px;
+}
+
+.icon3{
+  width: 30px;
+  border-radius: 100%;
+  float: left;
+  margin-top: -8px;
+  position: relative;
+}
+
+.icon4{
+  width: 48%;
+  border-radius: 100%;
+  margin: auto;
+  position: absolute;
+}
+.post-header{
+    max-height: 5rem;
+}
+.hdr{
+    width: 4fn0rem;
+}
+
+.container{
+  width: 100%;
+}
+
+.tab-content{
+  width: 100%;
+}
+
+#commentbox{
+  border: 0px;
+  outline: none;
+  padding: 5x;
+  float: left;
+  margin: 0px;
+}
+
+#commentbox_btn{
+  float: right;
+}
+
+#sidebar{
+  right: 20.5%;
+  z-index: 1;
+}
+h4{
+  padding-top: 17px;
+  margin-left: 18px;
+}
+.navbar{
+    height: 4rem;
+}
+.card-img{
+    width: 80%;
+}
+.nav-item, .fa-x{
+    font-size: 1.3rem;
+    
+}
+.container-fluid{
+    width: 50%;
+}
+.card{
+    width: 5%;
+}
+#prova{
+    width: 40%;
+}
+.navbar-brand{
+    position: absolute;
+    left: 35rem;
+}
+.form-control{
+    position: absolute;
+    left: 55rem;
+    max-height: 30px;
+    font-size: 3px;
+}
+ .nav{
+    position: absolute;
+    left: 75rem;
+    top: 1rem;
+}
